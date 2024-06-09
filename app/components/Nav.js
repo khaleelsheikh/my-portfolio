@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Nav = () => {
   return (
-    <nav className="p-4">
+    <nav className="sticky top-0 p-4">
       <div className="mx-auto flex justify-between">
         <Link href="/" className="text-white">Home</Link>
         <Link href="/about" className="text-white">About</Link>
